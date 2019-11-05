@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 2/code/exampleapp.cc" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 2/CMakeFiles/labb2.dir/code/exampleapp.cc.o"
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 2/code/main.cc" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 2/CMakeFiles/labb2.dir/code/main.cc.o"
+  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/code/exampleapp.cc" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/CMakeFiles/labb5.dir/code/exampleapp.cc.o"
+  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/code/main.cc" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/CMakeFiles/labb5.dir/code/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

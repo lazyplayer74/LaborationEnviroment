@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 2/CMakeFiles/progress.marks"
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 2/all"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/CMakeFiles/progress.marks"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 5/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 2/clean"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 5/clean"
 .PHONY : clean
 
 # The main clean target
@@ -97,12 +97,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 2/preinstall"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 5/preinstall"
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 2/preinstall"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 5/preinstall"
 .PHONY : preinstall/fast
 
 # clear depends
@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-projects/Labb\ 2/CMakeFiles/labb2.dir/rule:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 2/CMakeFiles/labb2.dir/rule"
-.PHONY : projects/Labb\ 2/CMakeFiles/labb2.dir/rule
+projects/Labb\ 5/CMakeFiles/labb5.dir/rule:
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 5/CMakeFiles/labb5.dir/rule"
+.PHONY : projects/Labb\ 5/CMakeFiles/labb5.dir/rule
 
 # Convenience name for target.
-labb2: projects/Labb\ 2/CMakeFiles/labb2.dir/rule
+labb5: projects/Labb\ 5/CMakeFiles/labb5.dir/rule
 
-.PHONY : labb2
+.PHONY : labb5
 
 # fast build rule for target.
-labb2/fast:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/build"
-.PHONY : labb2/fast
+labb5/fast:
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/build"
+.PHONY : labb5/fast
 
 code/exampleapp.o: code/exampleapp.cc.o
 
@@ -131,7 +131,7 @@ code/exampleapp.o: code/exampleapp.cc.o
 
 # target to build an object file
 code/exampleapp.cc.o:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/code/exampleapp.cc.o"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/code/exampleapp.cc.o"
 .PHONY : code/exampleapp.cc.o
 
 code/exampleapp.i: code/exampleapp.cc.i
@@ -140,7 +140,7 @@ code/exampleapp.i: code/exampleapp.cc.i
 
 # target to preprocess a source file
 code/exampleapp.cc.i:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/code/exampleapp.cc.i"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/code/exampleapp.cc.i"
 .PHONY : code/exampleapp.cc.i
 
 code/exampleapp.s: code/exampleapp.cc.s
@@ -149,7 +149,7 @@ code/exampleapp.s: code/exampleapp.cc.s
 
 # target to generate assembly for a file
 code/exampleapp.cc.s:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/code/exampleapp.cc.s"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/code/exampleapp.cc.s"
 .PHONY : code/exampleapp.cc.s
 
 code/main.o: code/main.cc.o
@@ -158,7 +158,7 @@ code/main.o: code/main.cc.o
 
 # target to build an object file
 code/main.cc.o:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/code/main.cc.o"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/code/main.cc.o"
 .PHONY : code/main.cc.o
 
 code/main.i: code/main.cc.i
@@ -167,7 +167,7 @@ code/main.i: code/main.cc.i
 
 # target to preprocess a source file
 code/main.cc.i:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/code/main.cc.i"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/code/main.cc.i"
 .PHONY : code/main.cc.i
 
 code/main.s: code/main.cc.s
@@ -176,7 +176,7 @@ code/main.s: code/main.cc.s
 
 # target to generate assembly for a file
 code/main.cc.s:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/code/main.cc.s"
+	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/code/main.cc.s"
 .PHONY : code/main.cc.s
 
 # Help Target
@@ -186,7 +186,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... labb2"
+	@echo "... labb5"
 	@echo "... edit_cache"
 	@echo "... code/exampleapp.o"
 	@echo "... code/exampleapp.i"

@@ -102,6 +102,28 @@ public:
 
 	}
 
+	Matrix4D(Vector4D axis, float rad, Vector4D position) {
+		for (int i = 0; i < 16; i++) {
+			internalMatrix[i] = 0;
+		}
+
+		internalMatrix[0] = axis[0] * axis[0] + (1 - axis[0] * axis[0]) * cos(rad);
+		internalMatrix[1] = axis[0] * axis[1] * (1 - cos(rad)) - axis[2] * sin(rad);
+		internalMatrix[2] = axis[0] * axis[2] * (1 - cos(rad)) + axis[1] * sin(rad);
+
+		internalMatrix[4] = axis[0] * axis[1] * (1 - cos(rad)) + axis[2] * sin(rad);
+		internalMatrix[5] = axis[1] * axis[1] + (1 - axis[1] * axis[1]) * cos(rad);
+		internalMatrix[6] = axis[1] * axis[2] * (1 - cos(rad)) - axis[0] * sin(rad);
+
+		internalMatrix[8] = axis[0] * axis[2] * (1 - cos(rad)) - axis[1] * sin(rad);
+		internalMatrix[9] = axis[1] * axis[2] * (1 - cos(rad)) + axis[0] * sin(rad);
+		internalMatrix[10] = axis[2] * axis[2] + (1 - axis[2] * axis[2]) * cos(rad);
+
+		internalMatrix[15] = 1;
+
+		this->setPosition(position);
+	}
+
 	float getValue(int col, int row) {
 		int index = row * 4 + col;
 		return internalMatrix[index];
@@ -110,6 +132,35 @@ public:
 	void setValue(int col, int row, float newValue) {
 		int index = row * 4 + col;
 		internalMatrix[index] = newValue;
+	}
+
+	Matrix4D getRotation() {
+		Matrix4D returnMatrix = *this;
+		returnMatrix.setValue(3, 0, 0);
+		returnMatrix.setValue(3, 1, 0);
+		returnMatrix.setValue(3, 2, 0);
+
+		return returnMatrix;
+	}
+
+	void setRotation(Matrix4D newRotation) {
+		for (int i = 0; i < 4; i++) {
+			internalMatrix[i * 4 + 0] = newRotation.getValue(0, i);
+			internalMatrix[i * 4 + 1] = newRotation.getValue(1, i);
+			internalMatrix[i * 4 + 2] = newRotation.getValue(2, i);
+		}
+	}
+
+	Vector4D getPosition() {
+		Vector4D returnVector(internalMatrix[3], internalMatrix[7], internalMatrix[11], 0);
+
+		return returnVector;
+	}
+
+	void setPosition(Vector4D newPosition) {
+		internalMatrix[3] = newPosition[0];
+		internalMatrix[7] = newPosition[1];
+		internalMatrix[11] = newPosition[2];
 	}
 
 	Matrix4D operator*(Matrix4D rightMatrix) {

@@ -9,6 +9,9 @@
 #include "core/app.h"
 #include "render/window.h"
 #include "Mesh.h"
+#include "Texture.h"
+#include "ShaderObject.h"
+#include "GraphicsNode.h"
 
 namespace Example
 {
