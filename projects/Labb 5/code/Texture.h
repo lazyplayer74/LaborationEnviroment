@@ -30,13 +30,10 @@ inline TextureResource::~TextureResource() {
 	height = 0;
 	nrChannels = 0;
 	texture = 0;
-	//delete data;
-	//glDeleteTextures(1, &texture);
 }
 
 inline void TextureResource::loadTextureFromFile(const char* filename) {
 	data = stbi_load(filename, &width, &height, &nrChannels, 0);
-	//data = stbi_load("C:\\Users\\Work\\Desktop\\container.jpg", &width, &height, &nrChannels, 0);
 }
 
 inline void TextureResource::generateTexture() {

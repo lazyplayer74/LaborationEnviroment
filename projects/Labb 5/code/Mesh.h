@@ -14,8 +14,8 @@ private:
 	unsigned int VAO;
 	unsigned int EBO;
 
-	float verticies[9 * 24]; // vector of vertecies to bind
-	float Originalverticies[9 * 24]; // vector of vertecies to bind
+	float verticies[9 * 24]; // vector of vertecies that are displayed
+	float Originalverticies[9 * 24]; // vector of vertecies used to return to original conditions
 	unsigned int indices[3 * 12];
 	float textureCourdinates[2*8];
 
@@ -222,17 +222,17 @@ inline void MeshResource::generateCube() {
 		Originalverticies[i] = tempVert[i];
 	}
 
-	int tempInd[36] = {	0,3,1,		//front square
+	int tempInd[36] = {	0,3,1,		//Front square
 						0,3,2,
-						4,7,5,		//back square
+						4,7,5,		//Back square
 						4,7,6,
-						8,11,9,		//left square
+						8,11,9,		//Left square
 						8,11,10,
-						12,15,13,	//right square
+						12,15,13,	//Right square
 						12,15,14,
-						16,19,17,	//top square
+						16,19,17,	//Top square
 						16,19,18,
-						20,23,21,	//bottom square
+						20,23,21,	//Bottom square
 						20,23,22
 
 	};
@@ -243,9 +243,6 @@ inline void MeshResource::generateCube() {
 }
 
 inline void MeshResource::bindBuffer2D() {
-	/*unsigned int VBO;
-	glGenBuffers(1, &VBO);*/
-
 	glBindVertexArray(VAO);
 
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
@@ -280,8 +277,6 @@ inline void MeshResource::bindBuffer2D() {
 }
 
 inline void MeshResource::bindBuffer3D() {
-	/*unsigned int VBO;
-	glGenBuffers(1, &VBO);*/
 
 	glBindVertexArray(VAO);
 
@@ -317,12 +312,8 @@ inline void MeshResource::bindBuffer3D() {
 }
 
 inline void MeshResource::draw() {
-	/*unsigned int VAO;
-	glGenVertexArrays(1, &VAO);*/
-
 	glBindVertexArray(VAO);
 
-	//glDrawArrays(GL_TRIANGLES, 0, 3);
 	glDrawElements(GL_TRIANGLES, sizeof(indices), GL_UNSIGNED_INT, 0);
 
 	glBindVertexArray(0);
@@ -387,29 +378,64 @@ inline bool MeshResource::outOfBounds() {
 }
 
 inline bool MeshResource::loadObject(const char* OBJPath) {
-	
-	std::ifstream in(OBJPath, std::ios::in);
-	if (!in)
-	{
-		std::cerr << "Cannot open " << OBJPath << std::endl;
-		return false;
-
-	}
-
 	std::vector<Vector4D> newVerticies;
 	std::vector<Vector4D> newTextureCoordinates;
 	std::vector<Vector4D> newFaces;
 	std::vector<Vector4D> newNormal;
 
-	std::string line;
-	while (std::getline(in, line)) {
-		//check v for vertices
-		if (line.substr(0, 2) == "v ") {
-			std::istringstream v(line.substr(2));
-			double x, y, z;
-			v >> x; v >> y; v >> z;
-			Vector4D vector(x,y,z,0);
-			newVerticies.push_back(vector);
+	FILE * file = fopen(OBJPath, "r");
+	if(file == NULL){
+		std::cout << "Error: Can't Open file";
+		return false;
+	}
+
+	while(1){
+		char lineHeader[128];
+		//read the first word of the line
+		int res = fscanf(file, "%s", lineHeader);
+		if(res = EOF){ //EOF = End Of File
+			break;
 		}
+
+		if(strcmp(lineHeader, "v") == 0){
+			Vector4D vertex;
+			fscanf(file, "%f %f %f\n", &vertex[0], &vertex[1], &vertex[2]);
+			newVerticies.push_back(vertex);
+		}
+		else if(strcmp(lineHeader, "vt") == 0){
+			Vector4D uv;
+			fscanf(file, "%f %f\n", &uv[0], &uv[1]);
+			newTextureCoordinates.push_back(uv);
+		}
+		else if(strcmp(lineHeader, "vn") == 0){
+			Vector4D normal;
+			fscanf(file, "%f %f %f\n", &normal[0], &normal[1], &normal[2]);
+			newNormal.push_back(normal);
+		}
+		else if(strcmp(lineHeader, "f") == 0){
+			Vector4D face1, face2, face3;
+			int matches = fscanf(file, "%d/%d/%d %d/%d/%d %d/%d/%d\n", &face1[0], &face1[1], &face1[2], &face2[0], &face2[1], &face2[2], &face3[0], &face3[1], &face3[2]);
+			if(matches != 9){
+				std::cout << "Error: Format incompatible with reader";
+				return false;
+			}
+			newFaces.push_back(face1);
+			newFaces.push_back(face2);
+			newFaces.push_back(face3);
+		}
+	}
+
+	// add data to vertecies and indices
+	for(int i = 0; i < newFaces.size(); i++){
+		Vector4D face;
+		face = newFaces[i];
+		Vector4D vertex = newVerticies[face[0]-1];
+		Vector4D texture = newTextureCoordinates[face[1]-1];
+		verticies[i * 9 + 0] = vertex[0];
+		verticies[i * 9 + 1] = vertex[1];
+		verticies[i * 9 + 2] = vertex[2];
+		verticies[i * 9 + 7] = texture[0];
+		verticies[i * 9 + 8] = texture[1];
+		indices[i] = face[0]-1;
 	}
 }

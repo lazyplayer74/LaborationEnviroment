@@ -21,7 +21,7 @@ public:
 		isLenghtUpToDate = true;
 	}
 
-	//Constructor
+	//Constructor with initial values
 	Vector4D(float x, float y, float z, float w) {
 		internalVector[0] = x;
 		internalVector[1] = y;
