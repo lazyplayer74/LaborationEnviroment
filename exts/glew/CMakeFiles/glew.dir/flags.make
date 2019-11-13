@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DGLEW_STATIC
 
-C_INCLUDES = -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glew/include 
+C_INCLUDES = -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glew/include" 
 

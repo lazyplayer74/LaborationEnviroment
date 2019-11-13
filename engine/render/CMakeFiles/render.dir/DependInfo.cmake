@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine/config.cc" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine/render/CMakeFiles/render.dir/__/config.cc.o"
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine/render/window.cc" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine/render/CMakeFiles/render.dir/window.cc.o"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine/config.cc" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine/render/CMakeFiles/render.dir/__/config.cc.o"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine/render/window.cc" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine/render/CMakeFiles/render.dir/window.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,11 +26,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake"
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/CMakeFiles/imgui.dir/DependInfo.cmake"
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine/core/CMakeFiles/core.dir/DependInfo.cmake"
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/CMakeFiles/nanovg.dir/DependInfo.cmake"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine/core/CMakeFiles/core.dir/DependInfo.cmake"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/CMakeFiles/nanovg.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5
+# Install script for directory: /home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

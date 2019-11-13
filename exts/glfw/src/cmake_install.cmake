@@ -1,4 +1,4 @@
-# Install script for directory: /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glfw/src
+# Install script for directory: /home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

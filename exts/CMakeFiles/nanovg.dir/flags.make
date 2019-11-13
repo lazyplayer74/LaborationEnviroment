@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DGLEW_STATIC
 
-C_INCLUDES = -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/nanovg/src -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glew/include -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glfw/include -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/imgui -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/imgui/examples/opengl3_example 
+C_INCLUDES = -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/nanovg/src" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glew/include" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glfw/include" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/imgui" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/imgui/examples/opengl3_example" 
 

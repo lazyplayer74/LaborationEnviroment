@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master
+CMAKE_SOURCE_DIR = "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master
+CMAKE_BINARY_DIR = "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -189,58 +189,6 @@ render/fast:
 .PHONY : render/fast
 
 #=============================================================================
-# Target rules for targets named ImGuiExample
-
-# Build rule for target.
-ImGuiExample: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ImGuiExample
-.PHONY : ImGuiExample
-
-# fast build rule for target.
-ImGuiExample/fast:
-	$(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build
-.PHONY : ImGuiExample/fast
-
-#=============================================================================
-# Target rules for targets named labb2
-
-# Build rule for target.
-labb2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 labb2
-.PHONY : labb2
-
-# fast build rule for target.
-labb2/fast:
-	$(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/build"
-.PHONY : labb2/fast
-
-#=============================================================================
-# Target rules for targets named labb3
-
-# Build rule for target.
-labb3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 labb3
-.PHONY : labb3
-
-# fast build rule for target.
-labb3/fast:
-	$(MAKE) -f "projects/Labb 3/CMakeFiles/labb3.dir/build.make" "projects/Labb 3/CMakeFiles/labb3.dir/build"
-.PHONY : labb3/fast
-
-#=============================================================================
-# Target rules for targets named labb4
-
-# Build rule for target.
-labb4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 labb4
-.PHONY : labb4
-
-# fast build rule for target.
-labb4/fast:
-	$(MAKE) -f "projects/Labb 4/CMakeFiles/labb4.dir/build.make" "projects/Labb 4/CMakeFiles/labb4.dir/build"
-.PHONY : labb4/fast
-
-#=============================================================================
 # Target rules for targets named labb5
 
 # Build rule for target.
@@ -252,19 +200,6 @@ labb5: cmake_check_build_system
 labb5/fast:
 	$(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/build"
 .PHONY : labb5/fast
-
-#=============================================================================
-# Target rules for targets named example
-
-# Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example
-.PHONY : example
-
-# fast build rule for target.
-example/fast:
-	$(MAKE) -f projects/example/CMakeFiles/example.dir/build.make projects/example/CMakeFiles/example.dir/build
-.PHONY : example/fast
 
 # Help Target
 help:
@@ -280,12 +215,7 @@ help:
 	@echo "... glfw"
 	@echo "... core"
 	@echo "... render"
-	@echo "... ImGuiExample"
-	@echo "... labb2"
-	@echo "... labb3"
-	@echo "... labb4"
 	@echo "... labb5"
-	@echo "... example"
 .PHONY : help
 
 

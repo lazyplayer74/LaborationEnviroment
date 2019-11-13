@@ -39,11 +39,11 @@ public:
 inline GraphicsNode::GraphicsNode(){
 	this->Mesh = new MeshResource();
 	this->Texture = new TextureResource();
-	this->Shader = new shaderObject("C:\\Users\\Work\\Desktop\\VertexShader.txt", "C:\\Users\\Work\\Desktop\\PixelShader.txt");
+	this->Shader = new shaderObject("/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/VertexShader.txt", "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/PixelShader.txt");
 
-	Transform = Matrix4D(Vector4D(0,0,1,0), 3.141592 * 0, Vector4D(0, 0, 0, 0));
+	Transform = Matrix4D(Vector4D(0,0,1,0), 3.141592 * 0.5, Vector4D(0, 0, 0, 0));
 
-	Mesh->loadObject("C:\\Users\\Work\\Desktop\\cube.obj");
+	Mesh->loadObject("/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/cube.obj");
 }
 
 inline GraphicsNode::~GraphicsNode() {
@@ -100,7 +100,7 @@ inline void GraphicsNode::rotate(Matrix4D rotation) {
 }
 
 inline void GraphicsNode::setup() {
-	Texture->loadTextureFromFile("C:\\Users\\Work\\Desktop\\container.jpg");//change to local filepath
+	Texture->loadTextureFromFile("/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/container.jpg");//change to local filepath
 	Texture->generateTexture();
 
 	Mesh->generateCube();

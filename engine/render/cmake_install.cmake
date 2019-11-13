@@ -1,4 +1,4 @@
-# Install script for directory: /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine/render
+# Install script for directory: /home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine/render
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

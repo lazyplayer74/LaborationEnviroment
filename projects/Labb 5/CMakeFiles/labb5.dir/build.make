@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master
+CMAKE_SOURCE_DIR = "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master
+CMAKE_BINARY_DIR = "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment"
 
 # Include any dependencies generated for this target.
 include projects/Labb\ 5/CMakeFiles/labb5.dir/depend.make
@@ -59,16 +59,16 @@ include projects/Labb\ 5/CMakeFiles/labb5.dir/flags.make
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/exampleapp.cc.o: projects/Labb\ 5/CMakeFiles/labb5.dir/flags.make
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/exampleapp.cc.o: projects/Labb\ 5/code/exampleapp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object projects/Labb 5/CMakeFiles/labb5.dir/code/exampleapp.cc.o"
-	cd "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labb5.dir/code/exampleapp.cc.o -c "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/code/exampleapp.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object projects/Labb 5/CMakeFiles/labb5.dir/code/exampleapp.cc.o"
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labb5.dir/code/exampleapp.cc.o -c "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5/code/exampleapp.cc"
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/exampleapp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labb5.dir/code/exampleapp.cc.i"
-	cd "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/code/exampleapp.cc" > CMakeFiles/labb5.dir/code/exampleapp.cc.i
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5/code/exampleapp.cc" > CMakeFiles/labb5.dir/code/exampleapp.cc.i
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/exampleapp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labb5.dir/code/exampleapp.cc.s"
-	cd "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/code/exampleapp.cc" -o CMakeFiles/labb5.dir/code/exampleapp.cc.s
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5/code/exampleapp.cc" -o CMakeFiles/labb5.dir/code/exampleapp.cc.s
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/exampleapp.cc.o.requires:
 
@@ -83,16 +83,16 @@ projects/Labb\ 5/CMakeFiles/labb5.dir/code/exampleapp.cc.o.provides.build: proje
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/main.cc.o: projects/Labb\ 5/CMakeFiles/labb5.dir/flags.make
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/main.cc.o: projects/Labb\ 5/code/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/Labb 5/CMakeFiles/labb5.dir/code/main.cc.o"
-	cd "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labb5.dir/code/main.cc.o -c "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/code/main.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/Labb 5/CMakeFiles/labb5.dir/code/main.cc.o"
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labb5.dir/code/main.cc.o -c "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5/code/main.cc"
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labb5.dir/code/main.cc.i"
-	cd "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/code/main.cc" > CMakeFiles/labb5.dir/code/main.cc.i
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5/code/main.cc" > CMakeFiles/labb5.dir/code/main.cc.i
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labb5.dir/code/main.cc.s"
-	cd "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/code/main.cc" -o CMakeFiles/labb5.dir/code/main.cc.s
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5/code/main.cc" -o CMakeFiles/labb5.dir/code/main.cc.s
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/code/main.cc.o.requires:
 
@@ -134,8 +134,8 @@ projects/Labb\ 5/labb5: exts/libnanovg.a
 projects/Labb\ 5/labb5: exts/libimgui.a
 projects/Labb\ 5/labb5: exts/libnanovg.a
 projects/Labb\ 5/labb5: projects/Labb\ 5/CMakeFiles/labb5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable labb5"
-	cd "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/labb5.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable labb5"
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/labb5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 projects/Labb\ 5/CMakeFiles/labb5.dir/build: projects/Labb\ 5/labb5
@@ -148,10 +148,10 @@ projects/Labb\ 5/CMakeFiles/labb5.dir/requires: projects/Labb\ 5/CMakeFiles/labb
 .PHONY : projects/Labb\ 5/CMakeFiles/labb5.dir/requires
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/clean:
-	cd "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" && $(CMAKE_COMMAND) -P CMakeFiles/labb5.dir/cmake_clean.cmake
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" && $(CMAKE_COMMAND) -P CMakeFiles/labb5.dir/cmake_clean.cmake
 .PHONY : projects/Labb\ 5/CMakeFiles/labb5.dir/clean
 
 projects/Labb\ 5/CMakeFiles/labb5.dir/depend:
-	cd /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/projects/Labb 5/CMakeFiles/labb5.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/projects/Labb 5/CMakeFiles/labb5.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : projects/Labb\ 5/CMakeFiles/labb5.dir/depend
 

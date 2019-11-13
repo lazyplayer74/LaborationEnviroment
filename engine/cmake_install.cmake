@@ -1,4 +1,4 @@
-# Install script for directory: /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine
+# Install script for directory: /home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine/core/cmake_install.cmake")
-  include("/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/engine/render/cmake_install.cmake")
+  include("/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine/core/cmake_install.cmake")
+  include("/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/engine/render/cmake_install.cmake")
 
 endif()
 

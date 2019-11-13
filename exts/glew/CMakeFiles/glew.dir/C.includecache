@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glew/src/glew.c
+/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glew/src/glew.c
 GL/glew.h
 -
 GL/osmesa.h

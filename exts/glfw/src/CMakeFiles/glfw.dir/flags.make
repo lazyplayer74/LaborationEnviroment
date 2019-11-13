@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall
 
 C_DEFINES = -DGLEW_STATIC -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glfw/include -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glfw/src 
+C_INCLUDES = -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glfw/include" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glfw/src" 
 

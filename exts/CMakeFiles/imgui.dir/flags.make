@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = -DGLEW_STATIC
 
-CXX_INCLUDES = -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/imgui -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/imgui/examples/opengl3_example -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glew/include -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glfw/include -I/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/nanovg/src 
+CXX_INCLUDES = -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/imgui" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/imgui/examples/opengl3_example" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glew/include" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glfw/include" -I"/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/nanovg/src" 
 

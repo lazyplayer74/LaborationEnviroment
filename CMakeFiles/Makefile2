@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master
+CMAKE_SOURCE_DIR = "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master
+CMAKE_BINARY_DIR = "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment"
 
 #=============================================================================
 # Directory level rules for directory exts
@@ -91,7 +91,7 @@ exts/preinstall: exts/glfw/preinstall
 exts/CMakeFiles/imgui.dir/all: exts/CMakeFiles/nanovg.dir/all
 	$(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/depend
 	$(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=28,29,30,31,32 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=22,23,24,25,26 "Built target imgui"
 .PHONY : exts/CMakeFiles/imgui.dir/all
 
 # Include target in all.
@@ -101,9 +101,9 @@ all: exts/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
 exts/CMakeFiles/imgui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 exts/CMakeFiles/imgui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 0
 .PHONY : exts/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -128,7 +128,7 @@ clean: exts/CMakeFiles/imgui.dir/clean
 exts/CMakeFiles/nanovg.dir/all:
 	$(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/depend
 	$(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=45,46 "Built target nanovg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=30,31 "Built target nanovg"
 .PHONY : exts/CMakeFiles/nanovg.dir/all
 
 # Include target in all.
@@ -138,9 +138,9 @@ all: exts/CMakeFiles/nanovg.dir/all
 
 # Build rule for subdir invocation for target.
 exts/CMakeFiles/nanovg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 exts/CMakeFiles/nanovg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 0
 .PHONY : exts/CMakeFiles/nanovg.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ exts/glew/preinstall:
 exts/glew/CMakeFiles/glew.dir/all:
 	$(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/depend
 	$(MAKE) -f exts/glew/CMakeFiles/glew.dir/build.make exts/glew/CMakeFiles/glew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=10,11 "Built target glew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=4,5 "Built target glew"
 .PHONY : exts/glew/CMakeFiles/glew.dir/all
 
 # Include target in all.
@@ -193,9 +193,9 @@ all: exts/glew/CMakeFiles/glew.dir/all
 
 # Build rule for subdir invocation for target.
 exts/glew/CMakeFiles/glew.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 exts/glew/CMakeFiles/glew.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 0
 .PHONY : exts/glew/CMakeFiles/glew.dir/rule
 
 # Convenience name for target.
@@ -256,7 +256,7 @@ exts/glfw/src/preinstall:
 exts/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f exts/glfw/src/CMakeFiles/glfw.dir/build.make exts/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f exts/glfw/src/CMakeFiles/glfw.dir/build.make exts/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target glfw"
 .PHONY : exts/glfw/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.
@@ -266,9 +266,9 @@ all: exts/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 exts/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 16
 	$(MAKE) -f CMakeFiles/Makefile2 exts/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 0
 .PHONY : exts/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -332,7 +332,7 @@ engine/core/preinstall:
 engine/core/CMakeFiles/core.dir/all: engine/render/CMakeFiles/render.dir/all
 	$(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/depend
 	$(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=4,5,6 "Built target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=1,2,3 "Built target core"
 .PHONY : engine/core/CMakeFiles/core.dir/all
 
 # Include target in all.
@@ -342,9 +342,9 @@ all: engine/core/CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 engine/core/CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 31
 	$(MAKE) -f CMakeFiles/Makefile2 engine/core/CMakeFiles/core.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 0
 .PHONY : engine/core/CMakeFiles/core.dir/rule
 
 # Convenience name for target.
@@ -389,7 +389,7 @@ engine/render/CMakeFiles/render.dir/all: exts/glew/CMakeFiles/glew.dir/all
 engine/render/CMakeFiles/render.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f engine/render/CMakeFiles/render.dir/build.make engine/render/CMakeFiles/render.dir/depend
 	$(MAKE) -f engine/render/CMakeFiles/render.dir/build.make engine/render/CMakeFiles/render.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=47,48,49 "Built target render"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=32,33,34 "Built target render"
 .PHONY : engine/render/CMakeFiles/render.dir/all
 
 # Include target in all.
@@ -399,9 +399,9 @@ all: engine/render/CMakeFiles/render.dir/all
 
 # Build rule for subdir invocation for target.
 engine/render/CMakeFiles/render.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 28
 	$(MAKE) -f CMakeFiles/Makefile2 engine/render/CMakeFiles/render.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 0
 .PHONY : engine/render/CMakeFiles/render.dir/rule
 
 # Convenience name for target.
@@ -423,266 +423,19 @@ clean: engine/render/CMakeFiles/render.dir/clean
 # Directory level rules for directory projects
 
 # Convenience name for "all" pass in the directory.
-projects/all: projects/ImGuiExample/all
-projects/all: projects/Labb\ 2/all
-projects/all: projects/Labb\ 3/all
-projects/all: projects/Labb\ 4/all
 projects/all: projects/Labb\ 5/all
-projects/all: projects/example/all
 
 .PHONY : projects/all
 
 # Convenience name for "clean" pass in the directory.
-projects/clean: projects/ImGuiExample/clean
-projects/clean: projects/Labb\ 2/clean
-projects/clean: projects/Labb\ 3/clean
-projects/clean: projects/Labb\ 4/clean
 projects/clean: projects/Labb\ 5/clean
-projects/clean: projects/example/clean
 
 .PHONY : projects/clean
 
 # Convenience name for "preinstall" pass in the directory.
-projects/preinstall: projects/ImGuiExample/preinstall
-projects/preinstall: projects/Labb\ 2/preinstall
-projects/preinstall: projects/Labb\ 3/preinstall
-projects/preinstall: projects/Labb\ 4/preinstall
 projects/preinstall: projects/Labb\ 5/preinstall
-projects/preinstall: projects/example/preinstall
 
 .PHONY : projects/preinstall
-
-#=============================================================================
-# Directory level rules for directory projects/ImGuiExample
-
-# Convenience name for "all" pass in the directory.
-projects/ImGuiExample/all: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all
-
-.PHONY : projects/ImGuiExample/all
-
-# Convenience name for "clean" pass in the directory.
-projects/ImGuiExample/clean: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/clean
-
-.PHONY : projects/ImGuiExample/clean
-
-# Convenience name for "preinstall" pass in the directory.
-projects/ImGuiExample/preinstall:
-
-.PHONY : projects/ImGuiExample/preinstall
-
-#=============================================================================
-# Target rules for target projects/ImGuiExample/CMakeFiles/ImGuiExample.dir
-
-# All Build rule for target.
-projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: exts/glew/CMakeFiles/glew.dir/all
-projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
-projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: engine/core/CMakeFiles/core.dir/all
-	$(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/depend
-	$(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=1,2,3 "Built target ImGuiExample"
-.PHONY : projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all
-
-# Include target in all.
-all: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 34
-	$(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
-.PHONY : projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/rule
-
-# Convenience name for target.
-ImGuiExample: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/rule
-
-.PHONY : ImGuiExample
-
-# clean rule for target.
-projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/clean:
-	$(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/clean
-.PHONY : projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/clean
-
-# clean rule for target.
-clean: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory projects/Labb\ 2
-
-# Convenience name for "all" pass in the directory.
-projects/Labb\ 2/all: projects/Labb\ 2/CMakeFiles/labb2.dir/all
-
-.PHONY : projects/Labb\ 2/all
-
-# Convenience name for "clean" pass in the directory.
-projects/Labb\ 2/clean: projects/Labb\ 2/CMakeFiles/labb2.dir/clean
-
-.PHONY : projects/Labb\ 2/clean
-
-# Convenience name for "preinstall" pass in the directory.
-projects/Labb\ 2/preinstall:
-
-.PHONY : projects/Labb\ 2/preinstall
-
-#=============================================================================
-# Target rules for target projects/Labb 2/CMakeFiles/labb2.dir
-
-# All Build rule for target.
-projects/Labb\ 2/CMakeFiles/labb2.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/Labb\ 2/CMakeFiles/labb2.dir/all: exts/glew/CMakeFiles/glew.dir/all
-projects/Labb\ 2/CMakeFiles/labb2.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
-projects/Labb\ 2/CMakeFiles/labb2.dir/all: engine/core/CMakeFiles/core.dir/all
-	$(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/depend"
-	$(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=33,34,35 "Built target labb2"
-.PHONY : projects/Labb\ 2/CMakeFiles/labb2.dir/all
-
-# Include target in all.
-all: projects/Labb\ 2/CMakeFiles/labb2.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-projects/Labb\ 2/CMakeFiles/labb2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 34
-	$(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 2/CMakeFiles/labb2.dir/all"
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
-.PHONY : projects/Labb\ 2/CMakeFiles/labb2.dir/rule
-
-# Convenience name for target.
-labb2: projects/Labb\ 2/CMakeFiles/labb2.dir/rule
-
-.PHONY : labb2
-
-# clean rule for target.
-projects/Labb\ 2/CMakeFiles/labb2.dir/clean:
-	$(MAKE) -f "projects/Labb 2/CMakeFiles/labb2.dir/build.make" "projects/Labb 2/CMakeFiles/labb2.dir/clean"
-.PHONY : projects/Labb\ 2/CMakeFiles/labb2.dir/clean
-
-# clean rule for target.
-clean: projects/Labb\ 2/CMakeFiles/labb2.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory projects/Labb\ 3
-
-# Convenience name for "all" pass in the directory.
-projects/Labb\ 3/all: projects/Labb\ 3/CMakeFiles/labb3.dir/all
-
-.PHONY : projects/Labb\ 3/all
-
-# Convenience name for "clean" pass in the directory.
-projects/Labb\ 3/clean: projects/Labb\ 3/CMakeFiles/labb3.dir/clean
-
-.PHONY : projects/Labb\ 3/clean
-
-# Convenience name for "preinstall" pass in the directory.
-projects/Labb\ 3/preinstall:
-
-.PHONY : projects/Labb\ 3/preinstall
-
-#=============================================================================
-# Target rules for target projects/Labb 3/CMakeFiles/labb3.dir
-
-# All Build rule for target.
-projects/Labb\ 3/CMakeFiles/labb3.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/Labb\ 3/CMakeFiles/labb3.dir/all: exts/glew/CMakeFiles/glew.dir/all
-projects/Labb\ 3/CMakeFiles/labb3.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
-projects/Labb\ 3/CMakeFiles/labb3.dir/all: engine/core/CMakeFiles/core.dir/all
-	$(MAKE) -f "projects/Labb 3/CMakeFiles/labb3.dir/build.make" "projects/Labb 3/CMakeFiles/labb3.dir/depend"
-	$(MAKE) -f "projects/Labb 3/CMakeFiles/labb3.dir/build.make" "projects/Labb 3/CMakeFiles/labb3.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=36,37,38 "Built target labb3"
-.PHONY : projects/Labb\ 3/CMakeFiles/labb3.dir/all
-
-# Include target in all.
-all: projects/Labb\ 3/CMakeFiles/labb3.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-projects/Labb\ 3/CMakeFiles/labb3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 34
-	$(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 3/CMakeFiles/labb3.dir/all"
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
-.PHONY : projects/Labb\ 3/CMakeFiles/labb3.dir/rule
-
-# Convenience name for target.
-labb3: projects/Labb\ 3/CMakeFiles/labb3.dir/rule
-
-.PHONY : labb3
-
-# clean rule for target.
-projects/Labb\ 3/CMakeFiles/labb3.dir/clean:
-	$(MAKE) -f "projects/Labb 3/CMakeFiles/labb3.dir/build.make" "projects/Labb 3/CMakeFiles/labb3.dir/clean"
-.PHONY : projects/Labb\ 3/CMakeFiles/labb3.dir/clean
-
-# clean rule for target.
-clean: projects/Labb\ 3/CMakeFiles/labb3.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory projects/Labb\ 4
-
-# Convenience name for "all" pass in the directory.
-projects/Labb\ 4/all: projects/Labb\ 4/CMakeFiles/labb4.dir/all
-
-.PHONY : projects/Labb\ 4/all
-
-# Convenience name for "clean" pass in the directory.
-projects/Labb\ 4/clean: projects/Labb\ 4/CMakeFiles/labb4.dir/clean
-
-.PHONY : projects/Labb\ 4/clean
-
-# Convenience name for "preinstall" pass in the directory.
-projects/Labb\ 4/preinstall:
-
-.PHONY : projects/Labb\ 4/preinstall
-
-#=============================================================================
-# Target rules for target projects/Labb 4/CMakeFiles/labb4.dir
-
-# All Build rule for target.
-projects/Labb\ 4/CMakeFiles/labb4.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/Labb\ 4/CMakeFiles/labb4.dir/all: exts/glew/CMakeFiles/glew.dir/all
-projects/Labb\ 4/CMakeFiles/labb4.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
-projects/Labb\ 4/CMakeFiles/labb4.dir/all: engine/core/CMakeFiles/core.dir/all
-	$(MAKE) -f "projects/Labb 4/CMakeFiles/labb4.dir/build.make" "projects/Labb 4/CMakeFiles/labb4.dir/depend"
-	$(MAKE) -f "projects/Labb 4/CMakeFiles/labb4.dir/build.make" "projects/Labb 4/CMakeFiles/labb4.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=39,40,41 "Built target labb4"
-.PHONY : projects/Labb\ 4/CMakeFiles/labb4.dir/all
-
-# Include target in all.
-all: projects/Labb\ 4/CMakeFiles/labb4.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-projects/Labb\ 4/CMakeFiles/labb4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 34
-	$(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 4/CMakeFiles/labb4.dir/all"
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
-.PHONY : projects/Labb\ 4/CMakeFiles/labb4.dir/rule
-
-# Convenience name for target.
-labb4: projects/Labb\ 4/CMakeFiles/labb4.dir/rule
-
-.PHONY : labb4
-
-# clean rule for target.
-projects/Labb\ 4/CMakeFiles/labb4.dir/clean:
-	$(MAKE) -f "projects/Labb 4/CMakeFiles/labb4.dir/build.make" "projects/Labb 4/CMakeFiles/labb4.dir/clean"
-.PHONY : projects/Labb\ 4/CMakeFiles/labb4.dir/clean
-
-# clean rule for target.
-clean: projects/Labb\ 4/CMakeFiles/labb4.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory projects/Labb\ 5
@@ -712,7 +465,7 @@ projects/Labb\ 5/CMakeFiles/labb5.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 projects/Labb\ 5/CMakeFiles/labb5.dir/all: engine/core/CMakeFiles/core.dir/all
 	$(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/depend"
 	$(MAKE) -f "projects/Labb 5/CMakeFiles/labb5.dir/build.make" "projects/Labb 5/CMakeFiles/labb5.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=42,43,44 "Built target labb5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" --progress-num=27,28,29 "Built target labb5"
 .PHONY : projects/Labb\ 5/CMakeFiles/labb5.dir/all
 
 # Include target in all.
@@ -722,9 +475,9 @@ all: projects/Labb\ 5/CMakeFiles/labb5.dir/all
 
 # Build rule for subdir invocation for target.
 projects/Labb\ 5/CMakeFiles/labb5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 34
 	$(MAKE) -f CMakeFiles/Makefile2 "projects/Labb 5/CMakeFiles/labb5.dir/all"
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/CMakeFiles" 0
 .PHONY : projects/Labb\ 5/CMakeFiles/labb5.dir/rule
 
 # Convenience name for target.
@@ -739,64 +492,6 @@ projects/Labb\ 5/CMakeFiles/labb5.dir/clean:
 
 # clean rule for target.
 clean: projects/Labb\ 5/CMakeFiles/labb5.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory projects/example
-
-# Convenience name for "all" pass in the directory.
-projects/example/all: projects/example/CMakeFiles/example.dir/all
-
-.PHONY : projects/example/all
-
-# Convenience name for "clean" pass in the directory.
-projects/example/clean: projects/example/CMakeFiles/example.dir/clean
-
-.PHONY : projects/example/clean
-
-# Convenience name for "preinstall" pass in the directory.
-projects/example/preinstall:
-
-.PHONY : projects/example/preinstall
-
-#=============================================================================
-# Target rules for target projects/example/CMakeFiles/example.dir
-
-# All Build rule for target.
-projects/example/CMakeFiles/example.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/example/CMakeFiles/example.dir/all: exts/glew/CMakeFiles/glew.dir/all
-projects/example/CMakeFiles/example.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
-projects/example/CMakeFiles/example.dir/all: engine/core/CMakeFiles/core.dir/all
-	$(MAKE) -f projects/example/CMakeFiles/example.dir/build.make projects/example/CMakeFiles/example.dir/depend
-	$(MAKE) -f projects/example/CMakeFiles/example.dir/build.make projects/example/CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles --progress-num=7,8,9 "Built target example"
-.PHONY : projects/example/CMakeFiles/example.dir/all
-
-# Include target in all.
-all: projects/example/CMakeFiles/example.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-projects/example/CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 34
-	$(MAKE) -f CMakeFiles/Makefile2 projects/example/CMakeFiles/example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/CMakeFiles 0
-.PHONY : projects/example/CMakeFiles/example.dir/rule
-
-# Convenience name for target.
-example: projects/example/CMakeFiles/example.dir/rule
-
-.PHONY : example
-
-# clean rule for target.
-projects/example/CMakeFiles/example.dir/clean:
-	$(MAKE) -f projects/example/CMakeFiles/example.dir/build.make projects/example/CMakeFiles/example.dir/clean
-.PHONY : projects/example/CMakeFiles/example.dir/clean
-
-# clean rule for target.
-clean: projects/example/CMakeFiles/example.dir/clean
 
 .PHONY : clean
 

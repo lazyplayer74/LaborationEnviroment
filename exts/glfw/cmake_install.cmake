@@ -1,4 +1,4 @@
-# Install script for directory: /home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glfw
+# Install script for directory: /home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glfw/src/cmake_install.cmake")
+  include("/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glfw/src/cmake_install.cmake")
 
 endif()
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/nanovg/src/nanovg.c" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/nanovg/src/nanovg.c" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

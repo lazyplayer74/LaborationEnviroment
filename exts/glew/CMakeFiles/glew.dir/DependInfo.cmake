@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glew/src/glew.c" "/home/lazyplayer74/Desktop/LinuxSetup/lab-env-master/exts/glew/CMakeFiles/glew.dir/src/glew.c.o"
+  "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glew/src/glew.c" "/home/lazyplayer74/Desktop/Game Physics/Laboration Environment/exts/glew/CMakeFiles/glew.dir/src/glew.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
